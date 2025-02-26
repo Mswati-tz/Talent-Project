@@ -1,0 +1,172 @@
+.sidebar{
+	background: rgba(1, 2, 18, 0.295);
+	width: 300px;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.sidebar-header{
+	display: flex;
+	justify-content: space-betweens;
+}
+.sidebar div:last-child{
+	padding-left: 1rem;
+}
+.sidebar-menu li{
+    list-style: none;
+    padding-bottom: 1rem;
+    display: block;
+}
+.sidebar-menu li a{
+	text-decoration: none;
+	color: rgb(203, 15, 81);
+	display: block;
+	transform: ease all;
+	padding: 10px 10px 10px 10px;
+}
+.sidebar-menu li a:hover{
+	background: rgb(65, 199, 32);
+	color: black;
+	border-radius: 15px 0px 0px 15px;
+}
+
+
+header{
+	left: 300px;
+	width: calc(100% - 300px);
+	height: 70px;
+	position: relative;
+	background: rgb(116, 192, 86);
+	box-shadow: 1px 1px 3px 1px gray;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+}
+.user{
+	display: flex;
+	justify-content: space-between;
+}
+.user div:first-child{
+	padding-right: 1rem;
+}
+.user div:last-child{
+	padding-right: 2rem;
+}
+
+
+footer{
+	left: 300px;
+	margin-top: 75px;
+	width: calc(100% - 300px);
+	position: relative;
+
+}
+
+
+.Announcement{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	border: 1px black;
+}
+.announcement-detail{
+	display: flex;
+	width: 100%;
+	background: rgb(62, 83, 145);
+	box-shadow: 1px 1px 3px 1px gray;
+	align-items: center;
+}
+.announcement-content2{
+	margin-top: 2%;
+	background: #fff;
+	box-shadow:  1px 1px 3px 1px blue;
+	padding: 30px;
+	border-radius: 5px;
+	display: inline-block;
+}
+.announcement-content2 input{
+	padding: 10px;
+	width: 50%;
+	display: flex;
+}
+.announcement-content2 button{
+	margin-left: 90%;
+	border: none;
+	padding: 15px;
+	background: springgreen;
+	border-radius: 5px;
+}
+
+
+
+.Student{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	border: 1px black;
+}
+.student-detail{
+	display: flex;
+	width: 100%;
+	background: rgb(62, 83, 145);
+	box-shadow: 1px 1px 3px 1px gray;
+	align-items: center;
+}
+.student-content2{
+	margin-top: 2%;
+	background: #fff;
+	box-shadow:  1px 1px 3px 1px blue;
+	padding: 30px;
+	border-radius: 5px;
+	display: inline-block;
+}
+.student-content2 input{
+	padding: 10px;
+	width: 50%;
+	display: flex;
+}
+.student-content2 button{
+	margin-left: 90%;
+	border: none;
+	padding: 15px;
+	background: springgreen;
+	border-radius: 5px;
+}
+
+.Talent{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	border: 1px black;
+}
+.Talent-detail{
+	display: flex;
+	width: 100%;
+	background: rgb(62, 83, 145);
+	box-shadow: 1px 1px 3px 1px gray;
+	align-items: center;
+}
+.Talent-content2{
+	margin-top: 2%;
+	background: #fff;
+	box-shadow:  1px 1px 3px 1px blue;
+	padding: 30px;
+	border-radius: 5px;
+	display: inline-block;
+}
+.Talent-content2 input{
+	padding: 10px;
+	width: 50%;
+}
+.Talent-content2 button{
+	margin-left: 55%;
+	border: none;
+	padding: 15px;
+	background: springgreen;
+	border-radius: 5px;
+}
+
+
